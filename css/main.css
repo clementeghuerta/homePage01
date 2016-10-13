@@ -1,0 +1,165 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.left-button{
+	border: 1px solid #a2ac8c;
+	padding: 5px 5px;
+	border-radius: 5px;
+	
+}
+.phone, .address {
+	width: 30px;
+	padding-bottom: 10px;
+}
+ul {
+	display: block;
+}
+
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #000;
+	border: none;
+	list-style: none;
+}
+.title-bar {
+	position: relative;
+    top:25px;
+    z-index: 34;
+    background-color: #fff;
+    color: #000;
+    border-bottom: 10px solid #a2ac8c;
+}
+.menu-icon::after {
+	background: #000;
+  	box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+
+}
+
+.header {
+	max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: -1;
+    top: -96px;
+}
+.home-small img{
+	width: 50%;
+}
+.home-large{
+	visibility: hidden;
+}
+.section2 {
+	position: relative;
+	top: -96px;
+	margin: 20px 0 0 0;
+}
+.right {
+	position: relative;
+	top: -96px;
+	margin-top: 30px;
+}
+.section3 {
+	position: relative;
+	top: -335px;
+	color: #fff;
+	background-color: #a2ac8c;
+}
+h1 {
+
+	font-size: 3.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+.section3a{
+	margin: 0 0;
+	background-color: #6d7660;
+	padding: 20px 0;
+}
+.section3b{
+	margin: 5px 0;
+	background-color: #6d7660;
+	padding: 20px 0;
+}
+.section4 {
+	position: relative;
+	top: -335px;
+	color: #fff;
+	background-color: #8d4e37;
+}
+.reviews {
+	padding: 20px 0;
+	color: #653622;
+}
+
+.sectiona, .sectionb, .sectionc {
+
+}
+h2 {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+
+ul, li {
+  		list-style-type: none;
+  		padding: 0px;
+  		margin: 0px;
+  		left: 0px;
+}
+.specials {
+	padding: 20px 0;
+	color: #6d7660;
+}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 640px) {
+		.container {
+			max-width: 1000px;
+			width: 100%;
+			margin: auto;
+		}
+		ul {
+			display: flex;
+
+		}
+		
+		 .top-bar {
+		    position: relative;
+		    background-color: #fff;
+		    border-bottom: 10px solid #a2ac8c;
+		    height: 100px;
+		}
+		.top-bar ul {
+			background-color: #fff;]
+			display: inline-block;
+		}
+		li {
+			padding: 0 20px;
+		}
+		.header {
+		    max-width: 100%;
+		    height: auto;
+		    -ms-interpolation-mode: bicubic;
+		    display: inline-block;
+		    vertical-align: middle;
+		    position: relative;
+		    z-index: -1;
+		    top: -191px;
+		}
+		.home-large{
+			visibility: visible;
+}
+		body {
+		font-size: 16px;
+}
+}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		
+	
+}
